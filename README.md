@@ -22,9 +22,9 @@ You can see CPU profile in a root folder (**run.cpuprofile** file)
 
 Flame graphs:
 
-![ping1](/ping1.png)
+![ping1](assets/ping1.png)
 
-![ping2](ping2.png)
+![ping2](assets/ping2.png)
 
 
 
