@@ -133,6 +133,5 @@ vault/data/sealing_keys.key
 .vscode/settings.json
 globalConfig.json
 .groovylintrc.json
-*.cpuprofile
 
 documentation

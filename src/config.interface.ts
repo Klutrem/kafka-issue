@@ -1,5 +1,5 @@
 import { LogLevel } from "@nestjs/common";
-import { ClientProviderOptions, MicroserviceOptions } from "@nestjs/microservices";
+import { MicroserviceOptions } from "@nestjs/microservices";
 
 /**
  * The config interface
@@ -18,10 +18,6 @@ export default interface Config {
    * Microservice server connection options
    */
   microserviceServerSettings: MicroserviceOptions;
-  /**
-   * Microservice client connection options
-   */
-  microserviceClientSettings: ClientProviderOptions;
 
   logLevel: LogLevel[];
 }
