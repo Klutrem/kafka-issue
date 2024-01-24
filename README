@@ -16,7 +16,7 @@ messages both received and processed at the same time
 ## Actual behavior
 messages are processed in a row
 
-<img src="result.png" title="result" alt="result" data-align="center">
+<img src="./result.png" title="result" alt="result" data-align="center">
 
 You can see CPU profile in a root folder (**run.cpuprofile** file)
 
