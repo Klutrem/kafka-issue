@@ -16,15 +16,15 @@ messages both received and processed at the same time
 ## Actual behavior
 messages are processed in a row
 
-![result](readme-images/result.png)
+![result](https://github.com/goodhumored/kafka-issue/blob/a2efd31f9e8f3b782038215f83c31a4c9f706c02/readme-images/result.png)
 
 You can see CPU profile in a root folder (**run.cpuprofile** file)
 
 Flame graphs:
 
-![ping1](readme-images/ping1.png)
+![ping1](https://github.com/goodhumored/kafka-issue/blob/a2efd31f9e8f3b782038215f83c31a4c9f706c02/readme-images/ping1.png)
 
-![ping2](readme-images/ping2.png)
+![ping2](https://github.com/goodhumored/kafka-issue/blob/a2efd31f9e8f3b782038215f83c31a4c9f706c02/readme-images/ping2.png)
 
 
 
