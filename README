@@ -16,17 +16,17 @@ messages both received and processed at the same time
 ## Actual behavior
 messages are processed in a row
 
-![result](https://github.com/goodhumored/kafka-issue/blob/a2efd31f9e8f3b782038215f83c31a4c9f706c02/readme-images/result.png)
+![result](result.png)
 
 You can see CPU profile in a root folder (**run.cpuprofile** file)
 
 Flame graphs:
 
-![ping1](https://github.com/goodhumored/kafka-issue/blob/a2efd31f9e8f3b782038215f83c31a4c9f706c02/readme-images/ping1.png)
+![ping1](ping1.png)
 
-![ping2](https://github.com/goodhumored/kafka-issue/blob/a2efd31f9e8f3b782038215f83c31a4c9f706c02/readme-images/ping2.png)
+![ping2](ping2.png)
 
 
 
 ## Comment
-Issue occured after updating to nestjs version 10.x
+Issue occured after updating to nestjs version 10.x 1` `
