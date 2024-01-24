@@ -16,7 +16,7 @@ messages both received and processed at the same time
 ## Actual behavior
 messages are processed in a row
 
-<img src="./result.png" title="result" alt="result" data-align="center">
+<img src="assets/result.png" title="" alt="" data-align="center">
 
 You can see CPU profile in a root folder (**run.cpuprofile** file)
 
@@ -29,4 +29,4 @@ Flame graphs:
 
 
 ## Comment
-Issue occured after updating to nestjs version 10.x 1` `
+Issue occured after updating to nestjs version 10.x
