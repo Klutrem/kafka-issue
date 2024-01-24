@@ -1,14 +1,8 @@
 import { Global, Module } from "@nestjs/common";
-import { ConfigModule } from "@nestjs/config";
-import CommonModule from "./infrastructure/modules/core/common.module";
-import PlaceModule from "./infrastructure/modules/core/cruds/place.module";
+import TestController from "./test.controller";
 
 @Global()
 @Module({
-  imports: [
-    CommonModule,
-    ConfigModule.forRoot(),
-    PlaceModule,
-  ],
+  controllers: [TestController]
 })
 export default class AppModule {}
