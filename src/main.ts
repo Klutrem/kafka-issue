@@ -12,7 +12,7 @@ async function bootstrap() {
     config.microserviceServerSettings,
   );
 
-  await app.listen();
+  app.listen(() => logger.log("Microservice is listening"));
 
   logger.log("Microservice is listening");
 }

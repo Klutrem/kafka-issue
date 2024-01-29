@@ -15,15 +15,11 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
-    "incremental": true,
+    "incremental": true
   },
   "exclude": [
     "node_modules",
-    "dist"
-  ],
-  "ts-node": {
-    "require": [
-      "tsconfig-paths/register"
-    ]
-  },
+    "dist",
+    "scripts"
+  ]
 }
