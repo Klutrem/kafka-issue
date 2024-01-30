@@ -20,13 +20,5 @@ messages are processed in a row
 
 You can see CPU profile in a root folder (**run.cpuprofile** file)
 
-Flame graphs:
-
-![ping1](assets/ping1.png)
-
-![ping2](assets/ping2.png)
-
-
-
 ## Comment
 Issue occured after updating to nestjs version 10.x
