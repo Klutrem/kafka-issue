@@ -7,7 +7,6 @@ import {
 import { Observable } from "rxjs";
 import { tap } from "rxjs/operators";
 import { LoggerService } from "./logger.service";
-
 /**
  * Logs the requests
  */
